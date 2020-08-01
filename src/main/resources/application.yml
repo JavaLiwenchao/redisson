@@ -1,0 +1,9 @@
+spring:
+  # redis
+  redis:
+    host: 172.26.170.101
+    port: 6379
+    redisson:
+      # 配置单点模式
+      config: classpath:redisson/redisson-single-dev.yml
+    password: 123456
